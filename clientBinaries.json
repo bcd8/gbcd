@@ -1,0 +1,93 @@
+{
+    "clients": {
+        "Gbcd": {
+            "version": "1.0.0",
+            "platforms": {
+	        "linux": {
+	          "x64": {
+	            "download": {
+	              "url": "https://github.com/bcd8/gbcd/releases/download/v1.0.0/gbcd-linux-amd64-1.0.0-6dc3d659.tar.gz",
+	              "type": "tar",
+	              "md5": "ac34367c4e0e221bfdb3846f415a1a16",
+	              "bin": "gbcd-linux-amd64-1.0.0-6dc3d659/gbcd"
+	            },
+	            "bin": "gbcd",
+	            "commands": {
+	              "sanity": {
+	                "args": [
+	                  "version"
+	                ],
+	                "output": [
+	                  "Gbcd",
+	                  "1.0.0"
+	                ]
+	              }
+	            }
+	          },
+	          "ia32": {
+	            "download": {
+	              "url": "https://github.com/bcd8/gbcd/releases/download/v1.0.0/gbcd-linux-386-1.0.0-6dc3d659.tar.gz",
+	              "type": "tar",
+	              "md5": "8967d8f235789b7edad87b0468739244",
+	              "bin": "gbcd-linux-386-1.0.0-6dc3d659/gbcd"
+	            },
+	            "bin": "gbcd",
+	            "commands": {
+	              "sanity": {
+	                "args": [
+	                  "version"
+	                ],
+	                "output": [
+	                  "Gbcd",
+	                  "1.0.0"
+	                ]
+	              }
+	            }
+	          }
+	        },
+                "win": {
+                    "x64": {
+                        "download": {
+                            "url": "https://github.com/bcd8/gbcd/releases/download/v1.0.0/gbcd-windows-amd64-1.0.0-6dc3d659.zip",
+                            "type": "zip",
+                            "md5": "6e6b820cb0c0aae20d1f84947f65f36c",
+                            "bin": "gbcd-windows-amd64-1.0.0-6dc3d659\\gbcd.exe"
+                        },
+                        "bin": "gbcd.exe",
+                        "commands": {
+                            "sanity": {
+                                "args": [
+                                    "version"
+                                ],
+                                "output": [
+                                    "Gbcd",
+                                    "1.0.0"
+                                ]
+                            }
+                        }
+                    },
+                    "ia32": {
+                        "download": {
+                            "url": "https://github.com/bcd8/gbcd/releases/download/v1.0.0/gbcd-windows-386-1.0.0-6dc3d659.zip",
+                            "type": "zip",
+                            "md5": "9153aa9fdc7b2ff69aa08c682c3366a8",
+                            "bin": "gbcd-windows-386-1.0.0-6dc3d659\\gbcd.exe"
+                        },
+                        "bin": "gbcd.exe",
+                        "commands": {
+                            "sanity": {
+                                "args": [
+                                    "version"
+                                ],
+                                "output": [
+                                    "Gbcd",
+                                    "1.0.0"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
